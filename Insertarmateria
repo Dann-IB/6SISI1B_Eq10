@@ -1,8 +1,0 @@
-CREATE PROCEDURE sp_insertmat
-@id_mat char(10)
-@id_curso char(10)
-@pf int
-AS
-BEGIN
-INSERT INTO notas VALUES(@id_mat,@id_curso,@pf)
-END
